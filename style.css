@@ -64,14 +64,14 @@ h2 {
     font-weight: 700;
 }
 
-h3 {
+p.thanks {
     padding: 7.5px 10px;
     background-color: var(--neumgrey);
     color: var(--pryorange);
     margin: 25px 0px 10px;
     border-radius: 25px;
-    font-size: 12px;
     width: 75%;
+
 }
 
 p {

@@ -3,7 +3,7 @@ const submitBtn = document.querySelector('.submit')
 const ratingParent = document.querySelector('.rating')
 const mainPage = document.querySelector('main')
 const thanksPage = document.querySelector('section')
-const thanksPageH3 = document.querySelector('h3')
+const thanksPageP = document.querySelector('p.thanks')
 const error = document.querySelector('.error')
 
 ratingParent.addEventListener("click", (e) => {
@@ -16,7 +16,7 @@ ratingParent.addEventListener("click", (e) => {
 
 submitBtn.addEventListener('click', () => {
     
-    if(thanksPageH3.innerText == "You selected  out of 5"  ) {
+    if(thanksPageP.innerText == "You selected  out of 5"  ) {
          error.style.visibility = "visible"
 
         setTimeout(disError, 1500)
